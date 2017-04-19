@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3155B581EA7B20500B2BFEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B571EA7B20500B2BFEA /* AppDelegate.swift */; };
+		F3155B5A1EA7B20500B2BFEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B591EA7B20500B2BFEA /* ViewController.swift */; };
+		F3155B5D1EA7B20500B2BFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3155B5B1EA7B20500B2BFEA /* Main.storyboard */; };
+		F3155B601EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3155B5E1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld */; };
+		F3155B621EA7B20500B2BFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3155B611EA7B20500B2BFEA /* Assets.xcassets */; };
+		F3155B651EA7B20500B2BFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */; };
+		F3155B701EA7B20600B2BFEA /* HarmanHomeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B6F1EA7B20600B2BFEA /* HarmanHomeWorkTests.swift */; };
+		F3155B7B1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3155B6C1EA7B20600B2BFEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3155B4C1EA7B20500B2BFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3155B531EA7B20500B2BFEA;
+			remoteInfo = HarmanHomeWork;
+		};
+		F3155B771EA7B20600B2BFEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3155B4C1EA7B20500B2BFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3155B531EA7B20500B2BFEA;
+			remoteInfo = HarmanHomeWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3155B541EA7B20500B2BFEA /* HarmanHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmanHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3155B571EA7B20500B2BFEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3155B591EA7B20500B2BFEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3155B5C1EA7B20500B2BFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3155B5F1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HarmanHomeWork.xcdatamodel; sourceTree = "<group>"; };
+		F3155B611EA7B20500B2BFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3155B641EA7B20500B2BFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3155B661EA7B20500B2BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3155B6B1EA7B20600B2BFEA /* HarmanHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmanHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3155B6F1EA7B20600B2BFEA /* HarmanHomeWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmanHomeWorkTests.swift; sourceTree = "<group>"; };
+		F3155B711EA7B20600B2BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3155B761EA7B20600B2BFEA /* HarmanHomeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmanHomeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmanHomeWorkUITests.swift; sourceTree = "<group>"; };
+		F3155B7C1EA7B20600B2BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3155B511EA7B20500B2BFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3155B681EA7B20600B2BFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3155B731EA7B20600B2BFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3155B4B1EA7B20500B2BFEA = {
+			isa = PBXGroup;
+			children = (
+				F3155B561EA7B20500B2BFEA /* HarmanHomeWork */,
+				F3155B6E1EA7B20600B2BFEA /* HarmanHomeWorkTests */,
+				F3155B791EA7B20600B2BFEA /* HarmanHomeWorkUITests */,
+				F3155B551EA7B20500B2BFEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3155B551EA7B20500B2BFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3155B541EA7B20500B2BFEA /* HarmanHomeWork.app */,
+				F3155B6B1EA7B20600B2BFEA /* HarmanHomeWorkTests.xctest */,
+				F3155B761EA7B20600B2BFEA /* HarmanHomeWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3155B561EA7B20500B2BFEA /* HarmanHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				F3155B571EA7B20500B2BFEA /* AppDelegate.swift */,
+				F3155B591EA7B20500B2BFEA /* ViewController.swift */,
+				F3155B5B1EA7B20500B2BFEA /* Main.storyboard */,
+				F3155B611EA7B20500B2BFEA /* Assets.xcassets */,
+				F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */,
+				F3155B661EA7B20500B2BFEA /* Info.plist */,
+				F3155B5E1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld */,
+			);
+			path = HarmanHomeWork;
+			sourceTree = "<group>";
+		};
+		F3155B6E1EA7B20600B2BFEA /* HarmanHomeWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3155B6F1EA7B20600B2BFEA /* HarmanHomeWorkTests.swift */,
+				F3155B711EA7B20600B2BFEA /* Info.plist */,
+			);
+			path = HarmanHomeWorkTests;
+			sourceTree = "<group>";
+		};
+		F3155B791EA7B20600B2BFEA /* HarmanHomeWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */,
+				F3155B7C1EA7B20600B2BFEA /* Info.plist */,
+			);
+			path = HarmanHomeWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3155B531EA7B20500B2BFEA /* HarmanHomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3155B7F1EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWork" */;
+			buildPhases = (
+				F3155B501EA7B20500B2BFEA /* Sources */,
+				F3155B511EA7B20500B2BFEA /* Frameworks */,
+				F3155B521EA7B20500B2BFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarmanHomeWork;
+			productName = HarmanHomeWork;
+			productReference = F3155B541EA7B20500B2BFEA /* HarmanHomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3155B6A1EA7B20600B2BFEA /* HarmanHomeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3155B821EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWorkTests" */;
+			buildPhases = (
+				F3155B671EA7B20600B2BFEA /* Sources */,
+				F3155B681EA7B20600B2BFEA /* Frameworks */,
+				F3155B691EA7B20600B2BFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3155B6D1EA7B20600B2BFEA /* PBXTargetDependency */,
+			);
+			name = HarmanHomeWorkTests;
+			productName = HarmanHomeWorkTests;
+			productReference = F3155B6B1EA7B20600B2BFEA /* HarmanHomeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3155B751EA7B20600B2BFEA /* HarmanHomeWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3155B851EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWorkUITests" */;
+			buildPhases = (
+				F3155B721EA7B20600B2BFEA /* Sources */,
+				F3155B731EA7B20600B2BFEA /* Frameworks */,
+				F3155B741EA7B20600B2BFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3155B781EA7B20600B2BFEA /* PBXTargetDependency */,
+			);
+			name = HarmanHomeWorkUITests;
+			productName = HarmanHomeWorkUITests;
+			productReference = F3155B761EA7B20600B2BFEA /* HarmanHomeWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3155B4C1EA7B20500B2BFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "артем";
+				TargetAttributes = {
+					F3155B531EA7B20500B2BFEA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = UNZP8WBNM9;
+						ProvisioningStyle = Automatic;
+					};
+					F3155B6A1EA7B20600B2BFEA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = UNZP8WBNM9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3155B531EA7B20500B2BFEA;
+					};
+					F3155B751EA7B20600B2BFEA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = UNZP8WBNM9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3155B531EA7B20500B2BFEA;
+					};
+				};
+			};
+			buildConfigurationList = F3155B4F1EA7B20500B2BFEA /* Build configuration list for PBXProject "HarmanHomeWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3155B4B1EA7B20500B2BFEA;
+			productRefGroup = F3155B551EA7B20500B2BFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3155B531EA7B20500B2BFEA /* HarmanHomeWork */,
+				F3155B6A1EA7B20600B2BFEA /* HarmanHomeWorkTests */,
+				F3155B751EA7B20600B2BFEA /* HarmanHomeWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3155B521EA7B20500B2BFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3155B651EA7B20500B2BFEA /* LaunchScreen.storyboard in Resources */,
+				F3155B621EA7B20500B2BFEA /* Assets.xcassets in Resources */,
+				F3155B5D1EA7B20500B2BFEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3155B691EA7B20600B2BFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3155B741EA7B20600B2BFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3155B501EA7B20500B2BFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3155B5A1EA7B20500B2BFEA /* ViewController.swift in Sources */,
+				F3155B581EA7B20500B2BFEA /* AppDelegate.swift in Sources */,
+				F3155B601EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3155B671EA7B20600B2BFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3155B701EA7B20600B2BFEA /* HarmanHomeWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3155B721EA7B20600B2BFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3155B7B1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3155B6D1EA7B20600B2BFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3155B531EA7B20500B2BFEA /* HarmanHomeWork */;
+			targetProxy = F3155B6C1EA7B20600B2BFEA /* PBXContainerItemProxy */;
+		};
+		F3155B781EA7B20600B2BFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3155B531EA7B20500B2BFEA /* HarmanHomeWork */;
+			targetProxy = F3155B771EA7B20600B2BFEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3155B5B1EA7B20500B2BFEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3155B5C1EA7B20500B2BFEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3155B641EA7B20500B2BFEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3155B7D1EA7B20600B2BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3155B7E1EA7B20600B2BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3155B801EA7B20600B2BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = HarmanHomeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HarmanHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3155B811EA7B20600B2BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = HarmanHomeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HarmanHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3155B831EA7B20600B2BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = HarmanHomeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HarmanHomeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarmanHomeWork.app/HarmanHomeWork";
+			};
+			name = Debug;
+		};
+		F3155B841EA7B20600B2BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = HarmanHomeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HarmanHomeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarmanHomeWork.app/HarmanHomeWork";
+			};
+			name = Release;
+		};
+		F3155B861EA7B20600B2BFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = HarmanHomeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HarmanHomeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HarmanHomeWork;
+			};
+			name = Debug;
+		};
+		F3155B871EA7B20600B2BFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UNZP8WBNM9;
+				INFOPLIST_FILE = HarmanHomeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.HarmanHomeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HarmanHomeWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3155B4F1EA7B20500B2BFEA /* Build configuration list for PBXProject "HarmanHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3155B7D1EA7B20600B2BFEA /* Debug */,
+				F3155B7E1EA7B20600B2BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3155B7F1EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3155B801EA7B20600B2BFEA /* Debug */,
+				F3155B811EA7B20600B2BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3155B821EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3155B831EA7B20600B2BFEA /* Debug */,
+				F3155B841EA7B20600B2BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3155B851EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3155B861EA7B20600B2BFEA /* Debug */,
+				F3155B871EA7B20600B2BFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3155B5E1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3155B5F1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodel */,
+			);
+			currentVersion = F3155B5F1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodel */;
+			path = HarmanHomeWork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3155B4C1EA7B20500B2BFEA /* Project object */;
+}
