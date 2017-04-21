@@ -15,6 +15,7 @@
 		F3155B651EA7B20500B2BFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */; };
 		F3155B701EA7B20600B2BFEA /* HarmanHomeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B6F1EA7B20600B2BFEA /* HarmanHomeWorkTests.swift */; };
 		F3155B7B1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */; };
+		F3155B891EA7B6CA00B2BFEA /* addNotePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F3155B761EA7B20600B2BFEA /* HarmanHomeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmanHomeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmanHomeWorkUITests.swift; sourceTree = "<group>"; };
 		F3155B7C1EA7B20600B2BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNotePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				F3155B571EA7B20500B2BFEA /* AppDelegate.swift */,
 				F3155B591EA7B20500B2BFEA /* ViewController.swift */,
+				F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */,
 				F3155B5B1EA7B20500B2BFEA /* Main.storyboard */,
 				F3155B611EA7B20500B2BFEA /* Assets.xcassets */,
 				F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3155B891EA7B6CA00B2BFEA /* addNotePage.swift in Sources */,
 				F3155B5A1EA7B20500B2BFEA /* ViewController.swift in Sources */,
 				F3155B581EA7B20500B2BFEA /* AppDelegate.swift in Sources */,
 				F3155B601EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld in Sources */,
