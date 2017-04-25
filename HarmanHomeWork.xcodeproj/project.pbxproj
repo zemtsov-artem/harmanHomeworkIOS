@@ -13,6 +13,7 @@
 		F3155B701EA7B20600B2BFEA /* HarmanHomeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B6F1EA7B20600B2BFEA /* HarmanHomeWorkTests.swift */; };
 		F3155B7B1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */; };
 		F3155B891EA7B6CA00B2BFEA /* addNotePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */; };
+		F36A59BD1EAF7DAD00215517 /* workImg.png in Resources */ = {isa = PBXBuildFile; fileRef = F36A59BC1EAF7DAD00215517 /* workImg.png */; };
 		F3B2353D1EADF342007775D2 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B2353C1EADF342007775D2 /* images.xcassets */; };
 		F3B2353F1EAE104E007775D2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2353E1EAE104E007775D2 /* Note.swift */; };
 		F3B235411EAE1828007775D2 /* NotesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B235401EAE1828007775D2 /* NotesPreview.swift */; };
@@ -48,7 +49,8 @@
 		F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmanHomeWorkUITests.swift; sourceTree = "<group>"; };
 		F3155B7C1EA7B20600B2BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNotePage.swift; sourceTree = "<group>"; };
-		F3B2353C1EADF342007775D2 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		F36A59BC1EAF7DAD00215517 /* workImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workImg.png; sourceTree = "<group>"; };
+		F3B2353C1EADF342007775D2 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = HarmanHomeWork/images.xcassets; sourceTree = SOURCE_ROOT; };
 		F3B2353E1EAE104E007775D2 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		F3B235401EAE1828007775D2 /* NotesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,8 +108,7 @@
 				F3B235421EAE2236007775D2 /* Note */,
 				F3155B5B1EA7B20500B2BFEA /* Main.storyboard */,
 				F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */,
-				F3B2353C1EADF342007775D2 /* images.xcassets */,
-				F3155B661EA7B20500B2BFEA /* Info.plist */,
+				F36A59B71EAF7B2C00215517 /* Resource */,
 			);
 			path = HarmanHomeWork;
 			sourceTree = "<group>";
@@ -128,6 +129,16 @@
 				F3155B7C1EA7B20600B2BFEA /* Info.plist */,
 			);
 			path = HarmanHomeWorkUITests;
+			sourceTree = "<group>";
+		};
+		F36A59B71EAF7B2C00215517 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F36A59BC1EAF7DAD00215517 /* workImg.png */,
+				F3155B661EA7B20500B2BFEA /* Info.plist */,
+				F3B2353C1EADF342007775D2 /* images.xcassets */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		F3B235421EAE2236007775D2 /* Note */ = {
@@ -259,6 +270,7 @@
 			files = (
 				F3B2353D1EADF342007775D2 /* images.xcassets in Resources */,
 				F3155B651EA7B20500B2BFEA /* LaunchScreen.storyboard in Resources */,
+				F36A59BD1EAF7DAD00215517 /* workImg.png in Resources */,
 				F3155B5D1EA7B20500B2BFEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

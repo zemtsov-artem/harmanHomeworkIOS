@@ -7,6 +7,7 @@ provides-member:
 - ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", ""]
 provides-dynamic-lookup:
 - "setUp"
+- "testFromNoteClassToStringArray"
 - "testemptyNotesCollector"
 - "testfromStringArrToNoteArr"
 depends-top-level:
@@ -22,6 +23,7 @@ depends-top-level:
 - !private "XCTAssertTrue"
 - "XCTestCase"
 - !private "emptyNotesCollector"
+- !private "fromNoteClassToStringArray"
 - !private "fromStringArrToNoteArr"
 - !private "repeatElement"
 depends-member:
@@ -31,6 +33,7 @@ depends-member:
 - !private ["Ps9AnyObject", "XCTAssertTrue"]
 - !private ["Ps9AnyObject", "contents"]
 - !private ["Ps9AnyObject", "emptyNotesCollector"]
+- !private ["Ps9AnyObject", "fromNoteClassToStringArray"]
 - !private ["Ps9AnyObject", "fromStringArrToNoteArr"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "repeatElement"]
@@ -48,6 +51,7 @@ depends-member:
 - !private ["Ps7CVarArg", "XCTAssertTrue"]
 - !private ["Ps7CVarArg", "count"]
 - !private ["Ps7CVarArg", "emptyNotesCollector"]
+- !private ["Ps7CVarArg", "fromNoteClassToStringArray"]
 - !private ["Ps7CVarArg", "fromStringArrToNoteArr"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "repeatElement"]
@@ -64,6 +68,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "XCTAssertTrue"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "emptyNotesCollector"]
+- !private ["Ps28CustomDebugStringConvertible", "fromNoteClassToStringArray"]
 - !private ["Ps28CustomDebugStringConvertible", "fromStringArrToNoteArr"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "repeatElement"]
@@ -80,6 +85,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "XCTAssertTrue"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "emptyNotesCollector"]
+- !private ["Ps23CustomStringConvertible", "fromNoteClassToStringArray"]
 - !private ["Ps23CustomStringConvertible", "fromStringArrToNoteArr"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "repeatElement"]
@@ -91,6 +97,7 @@ depends-member:
 - !private ["Ps9Equatable", "XCTAssertEqual"]
 - !private ["Ps9Equatable", "XCTAssertTrue"]
 - !private ["Ps9Equatable", "emptyNotesCollector"]
+- !private ["Ps9Equatable", "fromNoteClassToStringArray"]
 - !private ["Ps9Equatable", "fromStringArrToNoteArr"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "repeatElement"]
@@ -109,10 +116,12 @@ depends-member:
 - !private ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "XCTAssertTrue"]
 - ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "deinit"]
 - !private ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "emptyNotesCollector"]
+- !private ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "fromNoteClassToStringArray"]
 - !private ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "fromStringArrToNoteArr"]
 - ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "init"]
 - !private ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "repeatElement"]
 - ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "setUp"]
+- ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "testFromNoteClassToStringArray"]
 - ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "testemptyNotesCollector"]
 - ["C19HarmanHomeWorkTests19HarmanHomeWorkTests", "testfromStringArrToNoteArr"]
 - !private ["Ps8Hashable", "Array"]
@@ -120,6 +129,7 @@ depends-member:
 - !private ["Ps8Hashable", "XCTAssertEqual"]
 - !private ["Ps8Hashable", "XCTAssertTrue"]
 - !private ["Ps8Hashable", "emptyNotesCollector"]
+- !private ["Ps8Hashable", "fromNoteClassToStringArray"]
 - !private ["Ps8Hashable", "fromStringArrToNoteArr"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "repeatElement"]
@@ -139,10 +149,12 @@ depends-member:
 - !private ["CSo8NSObject", "XCTAssertEqual"]
 - !private ["CSo8NSObject", "XCTAssertTrue"]
 - !private ["CSo8NSObject", "emptyNotesCollector"]
+- !private ["CSo8NSObject", "fromNoteClassToStringArray"]
 - !private ["CSo8NSObject", "fromStringArrToNoteArr"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "repeatElement"]
 - ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "testFromNoteClassToStringArray"]
 - ["CSo8NSObject", "testemptyNotesCollector"]
 - ["CSo8NSObject", "testfromStringArrToNoteArr"]
 - !private ["PSo16NSObjectProtocol", "Array"]
@@ -150,6 +162,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
 - !private ["PSo16NSObjectProtocol", "XCTAssertTrue"]
 - !private ["PSo16NSObjectProtocol", "emptyNotesCollector"]
+- !private ["PSo16NSObjectProtocol", "fromNoteClassToStringArray"]
 - !private ["PSo16NSObjectProtocol", "fromStringArrToNoteArr"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "repeatElement"]
@@ -177,6 +190,7 @@ depends-member:
 - !private ["PSo17XCTWaiterDelegate", "XCTAssertEqual"]
 - !private ["PSo17XCTWaiterDelegate", "XCTAssertTrue"]
 - !private ["PSo17XCTWaiterDelegate", "emptyNotesCollector"]
+- !private ["PSo17XCTWaiterDelegate", "fromNoteClassToStringArray"]
 - !private ["PSo17XCTWaiterDelegate", "fromStringArrToNoteArr"]
 - !private ["PSo17XCTWaiterDelegate", "init"]
 - !private ["PSo17XCTWaiterDelegate", "repeatElement"]
@@ -188,10 +202,12 @@ depends-member:
 - !private ["CSo6XCTest", "XCTAssertEqual"]
 - !private ["CSo6XCTest", "XCTAssertTrue"]
 - !private ["CSo6XCTest", "emptyNotesCollector"]
+- !private ["CSo6XCTest", "fromNoteClassToStringArray"]
 - !private ["CSo6XCTest", "fromStringArrToNoteArr"]
 - ["CSo6XCTest", "init"]
 - !private ["CSo6XCTest", "repeatElement"]
 - ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "testFromNoteClassToStringArray"]
 - ["CSo6XCTest", "testemptyNotesCollector"]
 - ["CSo6XCTest", "testfromStringArrToNoteArr"]
 - !private ["CSo10XCTestCase", "Array"]
@@ -200,10 +216,12 @@ depends-member:
 - !private ["CSo10XCTestCase", "XCTAssertEqual"]
 - !private ["CSo10XCTestCase", "XCTAssertTrue"]
 - !private ["CSo10XCTestCase", "emptyNotesCollector"]
+- !private ["CSo10XCTestCase", "fromNoteClassToStringArray"]
 - !private ["CSo10XCTestCase", "fromStringArrToNoteArr"]
 - ["CSo10XCTestCase", "init"]
 - !private ["CSo10XCTestCase", "repeatElement"]
 - ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "testFromNoteClassToStringArray"]
 - ["CSo10XCTestCase", "testemptyNotesCollector"]
 - ["CSo10XCTestCase", "testfromStringArrToNoteArr"]
 - ["CSo10XCTestCase", ""]
@@ -227,6 +245,7 @@ depends-member:
 - !private ["Ps9_Hashable", "XCTAssertEqual"]
 - !private ["Ps9_Hashable", "XCTAssertTrue"]
 - !private ["Ps9_Hashable", "emptyNotesCollector"]
+- !private ["Ps9_Hashable", "fromNoteClassToStringArray"]
 - !private ["Ps9_Hashable", "fromStringArrToNoteArr"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "repeatElement"]
@@ -364,4 +383,4 @@ depends-external:
 - "/Users/artemon/Desktop/projects/Swift/HarmanHomeWork/build/Debug-iphoneos/HarmanHomeWork.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.apinotesc"
-interface-hash: "7dcdff1f7af3e52fd6b30da662e74585"
+interface-hash: "deb0fd21cea4d44d6e650faeb9ced260"

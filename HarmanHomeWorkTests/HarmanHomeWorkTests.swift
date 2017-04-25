@@ -32,7 +32,14 @@ class HarmanHomeWorkTests: XCTestCase {
         for item in 0..<result.count{
             XCTAssertEqual(result[item].contents , noteArray[item].contents)
         }
-        
+    }
+    func testFromNoteClassToStringArray(){
+        let noteArray:[Note] = [Note(text:"first"),Note(text:"second"),Note(text:"third")]
+        let stringArray:[String] = fromNoteClassToStringArray(inputNotes: noteArray)
+        XCTAssertTrue(noteArray.count == stringArray.count)
+        for iter in 0..<noteArray.count {
+            XCTAssertEqual(stringArray[iter], noteArray[iter].contents)
+        }
     }
     
 }

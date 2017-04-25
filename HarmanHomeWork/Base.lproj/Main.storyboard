@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,11 +23,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hvn-yV-hxM" id="0ee-Mk-1x6">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B1L-cP-LKm">
-                                            <rect key="frame" x="15" y="0.0" width="325" height="43"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -84,21 +85,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Введите здесь текст своей заметки." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hgD-ZS-iT5">
-                                <rect key="frame" x="0.0" y="44" width="375" height="327"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Введите здесь текст своей заметки." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hgD-ZS-iT5">
+                                <rect key="frame" x="0.0" y="44" width="375" height="418"/>
                                 <color key="backgroundColor" red="1" green="0.94778385398443421" blue="0.98516129290633825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWw-G9-IY2">
-                                <rect key="frame" x="0.0" y="371" width="375" height="296"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWw-G9-IY2">
+                                <rect key="frame" x="0.0" y="430" width="375" height="237"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="296" id="cZ8-eb-mWs"/>
+                                    <constraint firstAttribute="height" constant="237" id="cZ8-eb-mWs"/>
                                     <constraint firstAttribute="width" constant="375" id="sNN-IW-8Sm"/>
                                 </constraints>
-                                <string key="text">89% людей заявляют, что не справляются со своими ежедневными обязанностями; только 11% профессионалов во всем мире выполняют за средний рабочий день все, что запланировали (данным опроса LinkedIn). Поэтому вот небольшой список рекомендации :
-
+                                <string key="text">89% людей заявляют, что не справляются со своими ежедневными обязанностями (по данным опроса LinkedIn). Поэтому вот небольшой список рекомендации :
 1. Оценивайте приоритеты реально
 2. Поймите, что оптимально для вас
 3. Избавляйтесь от старых списков или дублируйте их
@@ -110,6 +109,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="hgD-ZS-iT5" firstAttribute="trailing" secondItem="dWw-G9-IY2" secondAttribute="trailing" id="2bt-lj-VZx"/>
+                            <constraint firstItem="dWw-G9-IY2" firstAttribute="top" secondItem="hgD-ZS-iT5" secondAttribute="bottom" constant="-32" id="E3x-Lr-ZRn"/>
+                            <constraint firstItem="hgD-ZS-iT5" firstAttribute="leading" secondItem="dWw-G9-IY2" secondAttribute="leading" id="ESt-07-evc"/>
+                            <constraint firstItem="hgD-ZS-iT5" firstAttribute="top" secondItem="WE3-14-bEq" secondAttribute="topMargin" constant="44" id="O6Q-LP-UJu"/>
                             <constraint firstItem="dWw-G9-IY2" firstAttribute="leading" secondItem="WE3-14-bEq" secondAttribute="leading" id="OMN-Io-1So"/>
                             <constraint firstAttribute="bottom" secondItem="dWw-G9-IY2" secondAttribute="bottom" id="cbF-De-jG5"/>
                             <constraint firstAttribute="trailing" secondItem="dWw-G9-IY2" secondAttribute="trailing" id="odV-e9-kg2"/>
@@ -130,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oKN-3S-aaW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1423" y="735"/>
+            <point key="canvasLocation" x="1421.5999999999999" y="734.48275862068976"/>
         </scene>
     </scenes>
     <resources>

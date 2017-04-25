@@ -29,8 +29,11 @@ class HarmanHomeWorkUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCUIDevice.shared().orientation = .faceUp
+        XCUIDevice.shared().orientation = .faceUp
+        XCUIApplication().navigationBars["Notes Preview"].buttons["NIPlusImg"].tap()
+        XCUIDevice.shared().orientation = .portrait
+        
     }
     
 }

@@ -152,6 +152,7 @@ SWIFT_CLASS("_TtC14HarmanHomeWork11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSUserDefaults;
 @class UITableView;
 @class UITableViewCell;
 @class UIStoryboardSegue;
@@ -160,6 +161,7 @@ SWIFT_CLASS("_TtC14HarmanHomeWork11AppDelegate")
 
 SWIFT_CLASS("_TtC14HarmanHomeWork12NotesPreview")
 @interface NotesPreview : UITableViewController
+@property (nonatomic, strong) NSUserDefaults * _Nonnull defaultUD;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
@@ -178,7 +180,6 @@ SWIFT_CLASS("_TtC14HarmanHomeWork11addNotePage")
 @property (nonatomic, strong) IBOutlet UITextView * _Null_unspecified bodyText;
 - (IBAction)OkIsClicked:(id _Nonnull)sender;
 - (void)viewDidLoad;
-- (void)textViewDidEndEditing:(UITextView * _Nonnull)textView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

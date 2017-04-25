@@ -11,6 +11,7 @@ provides-dynamic-lookup:
 - "textViewDidEndEditing"
 - "viewDidLoad"
 depends-top-level:
+- !private "!="
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "Note"
@@ -22,6 +23,7 @@ depends-top-level:
 - !private "defNotes"
 - !private "fromNoteClassToStringArray"
 - !private "notes"
+- !private "print"
 depends-member:
 - !private ["Ps9AnyObject", "UserDefaults"]
 - !private ["Ps9AnyObject", "bodyText"]
@@ -33,6 +35,7 @@ depends-member:
 - !private ["Ps9AnyObject", "note"]
 - !private ["Ps9AnyObject", "notes"]
 - !private ["Ps9AnyObject", "popViewController"]
+- !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "scrollViewDidEndDecelerating"]
 - ["Ps9AnyObject", "scrollViewDidEndDragging"]
 - ["Ps9AnyObject", "scrollViewDidEndScrollingAnimation"]
@@ -56,10 +59,12 @@ depends-member:
 - ["Ps9AnyObject", "textViewDidEndEditing"]
 - ["Ps9AnyObject", "textViewShouldBeginEditing"]
 - ["Ps9AnyObject", "textViewShouldEndEditing"]
+- !private ["Ps9AnyObject", "value"]
 - !private ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", "viewForZooming"]
 - ["Ps9AnyObject", "viewForZoomingInScrollView"]
 - ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["Ps7CVarArg", "UserDefaults"]
 - !private ["Ps7CVarArg", "bodyText"]
@@ -70,6 +75,7 @@ depends-member:
 - !private ["Ps7CVarArg", "note"]
 - !private ["Ps7CVarArg", "notes"]
 - !private ["Ps7CVarArg", "popViewController"]
+- !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "scrollViewDidEndDecelerating"]
 - ["Ps7CVarArg", "scrollViewDidEndDragging"]
 - ["Ps7CVarArg", "scrollViewDidEndScrollingAnimation"]
@@ -93,6 +99,7 @@ depends-member:
 - ["Ps7CVarArg", "textViewDidEndEditing"]
 - ["Ps7CVarArg", "textViewShouldBeginEditing"]
 - ["Ps7CVarArg", "textViewShouldEndEditing"]
+- !private ["Ps7CVarArg", "value"]
 - !private ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", "viewForZooming"]
 - ["Ps7CVarArg", "viewForZoomingInScrollView"]
@@ -107,6 +114,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "note"]
 - !private ["Ps28CustomDebugStringConvertible", "notes"]
 - !private ["Ps28CustomDebugStringConvertible", "popViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDecelerating"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDragging"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewDidEndScrollingAnimation"]
@@ -130,13 +138,17 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "textViewDidEndEditing"]
 - ["Ps28CustomDebugStringConvertible", "textViewShouldBeginEditing"]
 - ["Ps28CustomDebugStringConvertible", "textViewShouldEndEditing"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
 - !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", "viewForZooming"]
 - ["Ps28CustomDebugStringConvertible", "viewForZoomingInScrollView"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "UserDefaults"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "bodyText"]
 - !private ["Ps23CustomStringConvertible", "defNotes"]
 - !private ["Ps23CustomStringConvertible", "fromNoteClassToStringArray"]
@@ -145,6 +157,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "note"]
 - !private ["Ps23CustomStringConvertible", "notes"]
 - !private ["Ps23CustomStringConvertible", "popViewController"]
+- !private ["Ps23CustomStringConvertible", "print"]
 - ["Ps23CustomStringConvertible", "scrollViewDidEndDecelerating"]
 - ["Ps23CustomStringConvertible", "scrollViewDidEndDragging"]
 - ["Ps23CustomStringConvertible", "scrollViewDidEndScrollingAnimation"]
@@ -168,11 +181,13 @@ depends-member:
 - ["Ps23CustomStringConvertible", "textViewDidEndEditing"]
 - ["Ps23CustomStringConvertible", "textViewShouldBeginEditing"]
 - ["Ps23CustomStringConvertible", "textViewShouldEndEditing"]
+- !private ["Ps23CustomStringConvertible", "value"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", "viewForZooming"]
 - ["Ps23CustomStringConvertible", "viewForZoomingInScrollView"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "UserDefaults"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "bodyText"]
 - !private ["Ps9Equatable", "defNotes"]
 - !private ["Ps9Equatable", "fromNoteClassToStringArray"]
@@ -181,6 +196,7 @@ depends-member:
 - !private ["Ps9Equatable", "note"]
 - !private ["Ps9Equatable", "notes"]
 - !private ["Ps9Equatable", "popViewController"]
+- !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "scrollViewDidEndDecelerating"]
 - ["Ps9Equatable", "scrollViewDidEndDragging"]
 - ["Ps9Equatable", "scrollViewDidEndScrollingAnimation"]
@@ -204,14 +220,17 @@ depends-member:
 - ["Ps9Equatable", "textViewDidEndEditing"]
 - ["Ps9Equatable", "textViewShouldBeginEditing"]
 - ["Ps9Equatable", "textViewShouldEndEditing"]
+- !private ["Ps9Equatable", "value"]
 - !private ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", "viewForZooming"]
 - ["Ps9Equatable", "viewForZoomingInScrollView"]
 - ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "UserDefaults"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "bodyText"]
 - !private ["Ps8Hashable", "defNotes"]
 - !private ["Ps8Hashable", "fromNoteClassToStringArray"]
@@ -220,6 +239,7 @@ depends-member:
 - !private ["Ps8Hashable", "note"]
 - !private ["Ps8Hashable", "notes"]
 - !private ["Ps8Hashable", "popViewController"]
+- !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "scrollViewDidEndDecelerating"]
 - ["Ps8Hashable", "scrollViewDidEndDragging"]
 - ["Ps8Hashable", "scrollViewDidEndScrollingAnimation"]
@@ -243,10 +263,12 @@ depends-member:
 - ["Ps8Hashable", "textViewDidEndEditing"]
 - ["Ps8Hashable", "textViewShouldBeginEditing"]
 - ["Ps8Hashable", "textViewShouldEndEditing"]
+- !private ["Ps8Hashable", "value"]
 - !private ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", "viewForZooming"]
 - ["Ps8Hashable", "viewForZoomingInScrollView"]
 - ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "UserDefaults"]
@@ -258,6 +280,7 @@ depends-member:
 - !private ["PSo8NSCoding", "note"]
 - !private ["PSo8NSCoding", "notes"]
 - !private ["PSo8NSCoding", "popViewController"]
+- !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "scrollViewDidEndDecelerating"]
 - ["PSo8NSCoding", "scrollViewDidEndDragging"]
 - ["PSo8NSCoding", "scrollViewDidEndScrollingAnimation"]
@@ -292,6 +315,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "note"]
 - !private ["PSo26NSExtensionRequestHandling", "notes"]
 - !private ["PSo26NSExtensionRequestHandling", "popViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDragging"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndScrollingAnimation"]
@@ -328,6 +352,7 @@ depends-member:
 - ["CSo8NSObject", "note"]
 - !private ["CSo8NSObject", "notes"]
 - !private ["CSo8NSObject", "popViewController"]
+- !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "scrollViewDidEndDecelerating"]
 - ["CSo8NSObject", "scrollViewDidEndDragging"]
 - ["CSo8NSObject", "scrollViewDidEndScrollingAnimation"]
@@ -351,6 +376,7 @@ depends-member:
 - ["CSo8NSObject", "textViewDidEndEditing"]
 - ["CSo8NSObject", "textViewShouldBeginEditing"]
 - ["CSo8NSObject", "textViewShouldEndEditing"]
+- !private ["CSo8NSObject", "value"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewForZooming"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
@@ -363,6 +389,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "note"]
 - !private ["PSo16NSObjectProtocol", "notes"]
 - !private ["PSo16NSObjectProtocol", "popViewController"]
+- !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndScrollingAnimation"]
@@ -386,6 +413,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "textViewDidEndEditing"]
 - ["PSo16NSObjectProtocol", "textViewShouldBeginEditing"]
 - ["PSo16NSObjectProtocol", "textViewShouldEndEditing"]
+- !private ["PSo16NSObjectProtocol", "value"]
 - !private ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewForZooming"]
 - ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
@@ -407,6 +435,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "note"]
 - !private ["PSo21UIAppearanceContainer", "notes"]
 - !private ["PSo21UIAppearanceContainer", "popViewController"]
+- !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDecelerating"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDragging"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndScrollingAnimation"]
@@ -440,6 +469,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "note"]
 - !private ["PSo18UIContentContainer", "notes"]
 - !private ["PSo18UIContentContainer", "popViewController"]
+- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDragging"]
 - ["PSo18UIContentContainer", "scrollViewDidEndScrollingAnimation"]
@@ -475,6 +505,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "note"]
 - !private ["PSo18UIFocusEnvironment", "notes"]
 - !private ["PSo18UIFocusEnvironment", "popViewController"]
+- !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDragging"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndScrollingAnimation"]
@@ -514,6 +545,7 @@ depends-member:
 - ["CSo11UIResponder", "note"]
 - !private ["CSo11UIResponder", "notes"]
 - !private ["CSo11UIResponder", "popViewController"]
+- !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "scrollViewDidEndDecelerating"]
 - ["CSo11UIResponder", "scrollViewDidEndDragging"]
 - ["CSo11UIResponder", "scrollViewDidEndScrollingAnimation"]
@@ -546,6 +578,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "note"]
 - !private ["PSo30UIResponderStandardEditActions", "notes"]
 - !private ["PSo30UIResponderStandardEditActions", "popViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "scrollViewDidEndDecelerating"]
 - ["PSo30UIResponderStandardEditActions", "scrollViewDidEndDragging"]
 - ["PSo30UIResponderStandardEditActions", "scrollViewDidEndScrollingAnimation"]
@@ -578,6 +611,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "navigationController"]
 - !private ["PSo20UIScrollViewDelegate", "note"]
 - !private ["PSo20UIScrollViewDelegate", "notes"]
+- !private ["PSo20UIScrollViewDelegate", "print"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -609,6 +643,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "note"]
 - !private ["PSo16UIStateRestoring", "notes"]
 - !private ["PSo16UIStateRestoring", "popViewController"]
+- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDragging"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndScrollingAnimation"]
@@ -642,6 +677,7 @@ depends-member:
 - !private ["PSo18UITextViewDelegate", "navigationController"]
 - !private ["PSo18UITextViewDelegate", "note"]
 - !private ["PSo18UITextViewDelegate", "notes"]
+- !private ["PSo18UITextViewDelegate", "print"]
 - ["PSo18UITextViewDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo18UITextViewDelegate", "scrollViewDidEndDragging"]
 - ["PSo18UITextViewDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -673,6 +709,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "note"]
 - !private ["PSo18UITraitEnvironment", "notes"]
 - !private ["PSo18UITraitEnvironment", "popViewController"]
+- !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDragging"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndScrollingAnimation"]
@@ -710,6 +747,7 @@ depends-member:
 - ["CSo16UIViewController", "note"]
 - !private ["CSo16UIViewController", "notes"]
 - !private ["CSo16UIViewController", "popViewController"]
+- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
 - ["CSo16UIViewController", "scrollViewDidEndDragging"]
 - ["CSo16UIViewController", "scrollViewDidEndScrollingAnimation"]
@@ -736,7 +774,9 @@ depends-member:
 - !private ["CSo12UserDefaults", "set"]
 - !private ["CSo12UserDefaults", "standard"]
 - !private ["CSo12UserDefaults", "synchronize"]
+- !private ["CSo12UserDefaults", "value"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -744,6 +784,7 @@ depends-member:
 - !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "UserDefaults"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "bodyText"]
 - !private ["Ps9_Hashable", "defNotes"]
 - !private ["Ps9_Hashable", "fromNoteClassToStringArray"]
@@ -752,6 +793,7 @@ depends-member:
 - !private ["Ps9_Hashable", "note"]
 - !private ["Ps9_Hashable", "notes"]
 - !private ["Ps9_Hashable", "popViewController"]
+- !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "scrollViewDidEndDecelerating"]
 - ["Ps9_Hashable", "scrollViewDidEndDragging"]
 - ["Ps9_Hashable", "scrollViewDidEndScrollingAnimation"]
@@ -775,10 +817,12 @@ depends-member:
 - ["Ps9_Hashable", "textViewDidEndEditing"]
 - ["Ps9_Hashable", "textViewShouldBeginEditing"]
 - ["Ps9_Hashable", "textViewShouldEndEditing"]
+- !private ["Ps9_Hashable", "value"]
 - !private ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", "viewForZooming"]
 - ["Ps9_Hashable", "viewForZoomingInScrollView"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - ["C14HarmanHomeWork11addNotePage", "Note"]
 - ["C14HarmanHomeWork11addNotePage", "OkIsClicked"]
@@ -792,6 +836,7 @@ depends-member:
 - !private ["C14HarmanHomeWork11addNotePage", "navigationController"]
 - ["C14HarmanHomeWork11addNotePage", "note"]
 - !private ["C14HarmanHomeWork11addNotePage", "notes"]
+- !private ["C14HarmanHomeWork11addNotePage", "print"]
 - ["C14HarmanHomeWork11addNotePage", "scrollViewDidEndDecelerating"]
 - ["C14HarmanHomeWork11addNotePage", "scrollViewDidEndDragging"]
 - ["C14HarmanHomeWork11addNotePage", "scrollViewDidEndScrollingAnimation"]
@@ -816,6 +861,7 @@ depends-member:
 - ["C14HarmanHomeWork11addNotePage", "viewForZoomingInScrollView"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Sb"
 - !private "PSo15CALayerDelegate"
 - "Ps7CVarArg"
 - !private "Ps10Comparable"
@@ -824,6 +870,7 @@ depends-nominal:
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -867,6 +914,7 @@ depends-nominal:
 - "CSo16UIViewController"
 - !private "CSo12UserDefaults"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"

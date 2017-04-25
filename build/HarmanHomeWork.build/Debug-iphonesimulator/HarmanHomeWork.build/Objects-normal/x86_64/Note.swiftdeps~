@@ -4,6 +4,7 @@ provides-top-level:
 - "fromNoteClassToStringArray"
 - "fromStringArrToNoteArr"
 - "notes"
+- "defNotes"
 provides-nominal:
 - "C14HarmanHomeWork4Note"
 provides-member:
@@ -18,6 +19,7 @@ depends-top-level:
 - "Note"
 - "String"
 - "StringLiteralType"
+- "defNotes"
 - "fromNoteClassToStringArray"
 - "fromStringArrToNoteArr"
 - "notes"
@@ -238,4 +240,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
-interface-hash: "6e3a754bd7d376b0a872b8b59d22ba78"
+interface-hash: "6ded88db27be8434070cc93fdc52c1c2"
