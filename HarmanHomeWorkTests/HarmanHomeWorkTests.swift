@@ -15,22 +15,24 @@ class HarmanHomeWorkTests: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testfromStringArrToNoteArr(){
+        var NoteArray:[Note] = Array(repeatElement(Note(text:""), count: 5))
+        let StringArray:[String] = ["first","second","third","fourth","fifth"]
+        NoteArray = fromStringArrToNoteArr(inputStringArr: StringArray)
+        for iter in 0..<5 {
+            XCTAssertEqual(NoteArray[iter].contents, StringArray[iter])
         }
+    }
+    
+    func testemptyNotesCollector(){
+        var noteArray:[Note] = [Note(text:""),Note(text:"first"),Note(text:""),Note(text:"second"),Note(text:"")]
+        let result:[Note]  = [Note(text:"first"),Note(text:"second")]
+        noteArray = emptyNotesCollector(inputNote: noteArray)
+        XCTAssertTrue(result.count == noteArray.count)
+        for item in 0..<result.count{
+            XCTAssertEqual(result[item].contents , noteArray[item].contents)
+        }
+        
     }
     
 }

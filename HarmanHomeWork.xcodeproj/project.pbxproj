@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F3155B581EA7B20500B2BFEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B571EA7B20500B2BFEA /* AppDelegate.swift */; };
-		F3155B5A1EA7B20500B2BFEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B591EA7B20500B2BFEA /* ViewController.swift */; };
 		F3155B5D1EA7B20500B2BFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3155B5B1EA7B20500B2BFEA /* Main.storyboard */; };
-		F3155B601EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3155B5E1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld */; };
-		F3155B621EA7B20500B2BFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3155B611EA7B20500B2BFEA /* Assets.xcassets */; };
 		F3155B651EA7B20500B2BFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */; };
 		F3155B701EA7B20600B2BFEA /* HarmanHomeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B6F1EA7B20600B2BFEA /* HarmanHomeWorkTests.swift */; };
 		F3155B7B1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */; };
 		F3155B891EA7B6CA00B2BFEA /* addNotePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */; };
+		F3B2353D1EADF342007775D2 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B2353C1EADF342007775D2 /* images.xcassets */; };
+		F3B2353F1EAE104E007775D2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2353E1EAE104E007775D2 /* Note.swift */; };
+		F3B235411EAE1828007775D2 /* NotesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B235401EAE1828007775D2 /* NotesPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,7 @@
 /* Begin PBXFileReference section */
 		F3155B541EA7B20500B2BFEA /* HarmanHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmanHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3155B571EA7B20500B2BFEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3155B591EA7B20500B2BFEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3155B5C1EA7B20500B2BFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3155B5F1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HarmanHomeWork.xcdatamodel; sourceTree = "<group>"; };
-		F3155B611EA7B20500B2BFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3155B641EA7B20500B2BFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3155B661EA7B20500B2BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3155B6B1EA7B20600B2BFEA /* HarmanHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmanHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +48,9 @@
 		F3155B7A1EA7B20600B2BFEA /* HarmanHomeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmanHomeWorkUITests.swift; sourceTree = "<group>"; };
 		F3155B7C1EA7B20600B2BFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNotePage.swift; sourceTree = "<group>"; };
+		F3B2353C1EADF342007775D2 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		F3B2353E1EAE104E007775D2 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F3B235401EAE1828007775D2 /* NotesPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				F3155B571EA7B20500B2BFEA /* AppDelegate.swift */,
-				F3155B591EA7B20500B2BFEA /* ViewController.swift */,
-				F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */,
+				F3B235431EAE224A007775D2 /* ViewControllers */,
+				F3B235421EAE2236007775D2 /* Note */,
 				F3155B5B1EA7B20500B2BFEA /* Main.storyboard */,
-				F3155B611EA7B20500B2BFEA /* Assets.xcassets */,
 				F3155B631EA7B20500B2BFEA /* LaunchScreen.storyboard */,
+				F3B2353C1EADF342007775D2 /* images.xcassets */,
 				F3155B661EA7B20500B2BFEA /* Info.plist */,
-				F3155B5E1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld */,
 			);
 			path = HarmanHomeWork;
 			sourceTree = "<group>";
@@ -129,6 +128,23 @@
 				F3155B7C1EA7B20600B2BFEA /* Info.plist */,
 			);
 			path = HarmanHomeWorkUITests;
+			sourceTree = "<group>";
+		};
+		F3B235421EAE2236007775D2 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				F3B2353E1EAE104E007775D2 /* Note.swift */,
+			);
+			name = Note;
+			sourceTree = "<group>";
+		};
+		F3B235431EAE224A007775D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3155B881EA7B6CA00B2BFEA /* addNotePage.swift */,
+				F3B235401EAE1828007775D2 /* NotesPreview.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B2353D1EADF342007775D2 /* images.xcassets in Resources */,
 				F3155B651EA7B20500B2BFEA /* LaunchScreen.storyboard in Resources */,
-				F3155B621EA7B20500B2BFEA /* Assets.xcassets in Resources */,
 				F3155B5D1EA7B20500B2BFEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,10 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B2353F1EAE104E007775D2 /* Note.swift in Sources */,
 				F3155B891EA7B6CA00B2BFEA /* addNotePage.swift in Sources */,
-				F3155B5A1EA7B20500B2BFEA /* ViewController.swift in Sources */,
+				F3B235411EAE1828007775D2 /* NotesPreview.swift in Sources */,
 				F3155B581EA7B20500B2BFEA /* AppDelegate.swift in Sources */,
-				F3155B601EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +538,7 @@
 				F3155B811EA7B20600B2BFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3155B821EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +547,7 @@
 				F3155B841EA7B20600B2BFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3155B851EA7B20600B2BFEA /* Build configuration list for PBXNativeTarget "HarmanHomeWorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,21 +556,9 @@
 				F3155B871EA7B20600B2BFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F3155B5E1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F3155B5F1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodel */,
-			);
-			currentVersion = F3155B5F1EA7B20500B2BFEA /* HarmanHomeWork.xcdatamodel */;
-			path = HarmanHomeWork.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F3155B4C1EA7B20500B2BFEA /* Project object */;
 }
