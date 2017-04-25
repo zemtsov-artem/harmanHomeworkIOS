@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+options: "96a7831cb7c0b9de5f556ff100bf15ac"
+build_time: [546436253, 587969000]
+inputs:
+  "/Users/artemon/Desktop/projects/Swift/HarmanHomeWork/HarmanHomeWork/Note.swift": [546434950, 0]
+  "/Users/artemon/Desktop/projects/Swift/HarmanHomeWork/HarmanHomeWork/addNotePage.swift": [546436253, 0]
+  "/Users/artemon/Desktop/projects/Swift/HarmanHomeWork/HarmanHomeWork/NotesPreview.swift": [546435470, 0]
+  "/Users/artemon/Desktop/projects/Swift/HarmanHomeWork/HarmanHomeWork/AppDelegate.swift": [546435470, 0]
